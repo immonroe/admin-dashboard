@@ -4,4 +4,9 @@ body {
 
 .container {
     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+div {
+    background-color: rgb(136, 255, 255);
 }
