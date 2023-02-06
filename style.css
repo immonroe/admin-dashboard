@@ -26,5 +26,6 @@ body {
 }
 
 .projects {
-
+    display: grid;
+    
 }
