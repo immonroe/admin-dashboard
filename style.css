@@ -19,6 +19,15 @@ ul {
     padding: 0;
 }
 
+li {
+    padding-left: .7rem;
+    font-size: 1.25rem;
+}
+
+i {
+    padding-right: 1rem;
+}
+
 .section {
     background-color: rgb(129, 236, 255);
     border: 1px solid black;
@@ -30,7 +39,39 @@ ul {
 
 .dashboard {
     grid-area: 1 / 1 / 3 / 2;
-    padding-left: 2rem;
+    padding-left: 1rem;
+    color: white;
+    font-weight: 700;
+}
+
+.branding {
+    padding-top: 2rem;
+}
+
+.navigation, .branding {
+    display: grid;
+    gap: 16px;
+}
+
+.dashboard-title {
+    padding: 0 0 1rem .5rem;
+    font-size: 1.5rem;
+}
+
+.dashboard-icon {
+    padding-right: .75rem;
+}
+
+.home-icon {
+    padding-right: .75rem;
+}
+
+.profile {
+    padding-left: .9rem;
+}
+
+.communities-icon {
+    padding-right: .75rem;
 }
 
 .projects {
