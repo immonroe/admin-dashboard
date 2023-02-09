@@ -3,10 +3,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-body {
-    /* insert google font */
-}
-
 .container {
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -14,6 +10,8 @@ body {
     gap: 5px;
     height: 97.5vh;   
 }
+
+/* DASHBOARD/SIDEBAR STYLING */
 
 ul {
     padding: 0;
@@ -30,12 +28,6 @@ i {
 
 .section {
     border: 1px solid black;
-}
-
-.header {
-    display: grid;
-    grid-template-rows: 1fr 2fr;
-    grid-area: 1 / 2 / 2 / 3;
 }
 
 .dashboard {
@@ -75,11 +67,28 @@ i {
     padding-right: .75rem;
 }
 
+/* HEADER STYLING */
+
+.header {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+input {
+    width: 50%;
+    height: 25px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(224, 229, 234);
+}
+
 .user {
     display: inline-block;
     width: 40px;
     height: 40px;
-    border-radius: 50%;
+    border-radius: 100%;
   
     background-repeat: no-repeat;
     background-position: center center;
@@ -89,6 +98,8 @@ i {
   .one {
     background-image: url('https://via.placeholder.com/400x200');
   }
+
+/* CONTENT SECTION */
 
 .projects {
   display: grid;
