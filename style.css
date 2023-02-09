@@ -34,6 +34,8 @@ i {
 }
 
 .header {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
     grid-area: 1 / 2 / 2 / 3;
 }
 
