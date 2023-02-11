@@ -71,8 +71,10 @@ i {
 
 .header {
     display: grid;
+    /* grid-template-columns: 2fr 1fr; */
     grid-template-rows: 1fr 2fr;
     grid-area: 1 / 2 / 2 / 3;
+    padding: 1rem 2rem;
 }
 
 input {
@@ -97,6 +99,12 @@ input {
   
   .one {
     background-image: url('https://via.placeholder.com/400x200');
+  }
+
+  .top-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: space-around;
   }
 
 /* CONTENT SECTION */
