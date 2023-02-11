@@ -71,15 +71,14 @@ i {
 
 .header {
     display: grid;
-    /* grid-template-columns: 2fr 1fr; */
     grid-template-rows: 1fr 2fr;
     grid-area: 1 / 2 / 2 / 3;
     padding: 1rem 2rem;
 }
 
 input {
-    width: 50%;
-    height: 25px;
+    width: 80%;
+    height: 20px;
     margin: 0 auto;
     border: none;
     border-radius: 30px;
@@ -90,8 +89,9 @@ input {
     display: inline-block;
     width: 40px;
     height: 40px;
+    min-width: 40px;
+    min-height: auto;
     border-radius: 100%;
-  
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -104,7 +104,15 @@ input {
   .top-row {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    justify-content: space-around;
+    align-items: center;
+  }
+
+  .top-right-row {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    align-items: center;
+    padding-right: 2rem;
   }
 
 /* CONTENT SECTION */
