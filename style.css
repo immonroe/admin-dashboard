@@ -1,14 +1,15 @@
 * {
     list-style: none;
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 .container {
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 4fr;
-    gap: 5px;
-    height: 97.5vh;   
+    /* gap: 5px; */
+    height: 100vh;   
 }
 
 /* DASHBOARD/SIDEBAR STYLING */
@@ -87,25 +88,33 @@ input {
 
 .user {
     display: inline-block;
-    width: 40px;
-    height: 40px;
-    min-width: 40px;
+    
+    
     min-height: auto;
     border-radius: 100%;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-  }
-  
-  .one {
     background-image: url('https://via.placeholder.com/400x200');
-  }
+}
+  
+.one {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+}
 
-  .top-row {
+.two {
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+}
+
+.top-row {
     display: grid;
     grid-template-columns: 2fr 1fr;
     align-items: center;
-  }
+}
 
   .top-right-row {
     display: flex;
@@ -115,7 +124,18 @@ input {
     padding-right: 2rem;
   }
 
-  
+.bottom-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+}
+
+.bottom-left-row {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
 
 /* CONTENT SECTION */
 
