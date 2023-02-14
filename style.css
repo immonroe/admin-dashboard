@@ -8,7 +8,6 @@
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 4fr;
-    /* gap: 5px; */
     height: 100vh;   
 }
 
@@ -28,7 +27,6 @@ i {
 }
 
 .section {
-    border: 1px solid black;
 }
 
 .dashboard {
@@ -76,6 +74,7 @@ i {
     grid-area: 1 / 2 / 2 / 3;
     padding: 1rem 2rem;
     gap: 1rem;
+    
 }
 
 input {
@@ -163,6 +162,7 @@ button {
   display: grid;
   gap: 15px;
   grid-template-columns: 3fr 1fr;
+  background-color: rgb(224, 229, 234);
 }
 
 .cards {
