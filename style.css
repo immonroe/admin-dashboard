@@ -33,7 +33,7 @@ i {
 
 .dashboard {
     grid-area: 1 / 1 / 3 / 2;
-    padding-left: 1rem;
+    padding: 1rem 0 0 1rem;
     background-color: #0969da;
     color: white;
 }
@@ -79,7 +79,7 @@ i {
 
 input {
     width: 80%;
-    height: 20px;
+    height: 30px;
     margin: 0 auto;
     border: none;
     border-radius: 30px;
