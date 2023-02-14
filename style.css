@@ -88,8 +88,6 @@ input {
 
 .user {
     display: inline-block;
-    
-    
     min-height: auto;
     border-radius: 100%;
     background-repeat: no-repeat;
@@ -116,13 +114,13 @@ input {
     align-items: center;
 }
 
-  .top-right-row {
+.top-right-row {
     display: flex;
     justify-content: flex-end;
     gap: 2rem;
     align-items: center;
     padding-right: 2rem;
-  }
+}
 
 .bottom-row {
     display: grid;
@@ -136,6 +134,21 @@ input {
     align-items: center;
 }
 
+.bottom-right-row {
+    display: flex;
+    text-align: center; 
+    gap: 2rem;
+}
+
+button {
+    font-size: 1rem;
+    color: white;
+    background-color: #0969da;
+    border: none;
+    border-radius: 30px;
+    padding: 7.5px 5px;
+    width: 100px;
+}
 
 /* CONTENT SECTION */
 
