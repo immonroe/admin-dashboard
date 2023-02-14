@@ -75,6 +75,7 @@ i {
     grid-template-rows: 1fr 2fr;
     grid-area: 1 / 2 / 2 / 3;
     padding: 1rem 2rem;
+    gap: 1rem;
 }
 
 input {
