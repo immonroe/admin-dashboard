@@ -95,7 +95,7 @@ input {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-image: url('https://via.placeholder.com/400x200');
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDI89WV6yQXcE-QAhPz54V6jhoMbbrarvHALroSZFyV_KX-rnmS0-VQ9tM5edkXkGyJ04&usqp=CAU');
 }
   
 .one {
@@ -177,10 +177,12 @@ button {
 }
 
 .card {
+    display: grid;
     background-color: #FFFFFF;
     color: black;
-    height: 200px;
-    width: 350px;
+    padding: 1.5rem 2rem;
+    border-radius: .5rem;
+    box-shadow: -.5rem 0px 0px 0px rgb(255, 196, 2);
   }
 
   .article p {
