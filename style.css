@@ -74,7 +74,7 @@ i {
     grid-area: 1 / 2 / 2 / 3;
     padding: 1rem 2rem;
     gap: 1rem;
-    
+    /* add sleight box shadow on bottom */
 }
 
 input {
