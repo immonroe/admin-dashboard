@@ -42,11 +42,11 @@ i {
 
 .navigation, .branding {
     display: grid;
-    gap: 16px;
+    gap: 2rem;
 }
 
 .dashboard-title {
-    padding: 0 0 1rem .5rem;
+    padding: 0 0 2rem .5rem;
     font-size: 1.5rem;
 }
 
