@@ -164,17 +164,17 @@ button {
   display: grid;
   gap: 15px;
   grid-template-columns: 3fr 1fr;
-  grid-template-rows: 1fr 3fr;
+  grid-template-rows: 2fr 2fr;
   background-color: rgb(224, 229, 234);
   padding: 2rem 1rem;
 }
 
 .article {
     display: grid;
-    grid-area: 2 / 1 / 2 / 2;
+    grid-area: 1 / 1 / 3 / 1;
     gap: 15px;
     grid-template-columns: repeat(2, minmax(250px, 1fr));
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: (3, 1fr);
 }
 
 .card {
@@ -184,6 +184,10 @@ button {
     padding: 1.5rem 2rem;
     border-radius: .5rem;
     box-shadow: -.5rem 0px 0px 0px rgb(255, 196, 2);
+}
+
+.project-title {
+    grid-column: 1 / 3;
 }
 
 .article p {
@@ -214,9 +218,9 @@ button {
 /* CONTENT SECTION (right side) */
 
 .announcements {
-    grid-area: 2 / 2 / 2 / 3;
+
 }
 
 .trending {
-    grid-area: 2 / 2 / 2 / 3;
+    
 }
