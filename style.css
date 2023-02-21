@@ -8,7 +8,7 @@
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 4fr;
-    height: 100vh;   
+    height: 100vh;
 }
 
 /* DASHBOARD/SIDEBAR STYLING */
@@ -188,7 +188,8 @@ h2 {
     color: black;
     padding: 1rem;
     border-radius: .5rem;
-    box-shadow: -.5rem 0px 0px 0px rgb(255, 196, 2);
+    gap: .25rem;
+    border-left: solid .6rem rgb(255, 196, 2);
 }
 
 .project-title {
@@ -243,7 +244,7 @@ hr {
     border-radius: .5rem;
     font-size: 0.75rem;
     margin-top: 1rem;
-    gap: .5rem;
+    gap: .4rem;
 }
 
 .trending-container {
@@ -253,6 +254,7 @@ hr {
     border-radius: .5rem;
     font-size: .75rem;
     grid-column: 1fr 3fr;
+    gap: 1rem;
 }
 
 .trending-content {
@@ -260,13 +262,24 @@ hr {
     gap: 1rem;
     justify-content: flex-start;
     align-items: center;
+    font-size: .75rem;
 }
 
 .icons, .info {
     display: grid;
+    gap: 1rem;
 }
 
 .trending {
     grid-row: 2 / 3;
     grid-column: 2 / 3;
+}
+
+.trend-handle {
+    font-weight: bold;
+    padding-bottom: .25rem;
+}
+
+.trend-info {
+    color: rgb(122, 122, 122);
 }
