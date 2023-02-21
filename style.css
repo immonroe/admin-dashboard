@@ -190,6 +190,7 @@ h2 {
     border-radius: .5rem;
     gap: .25rem;
     border-left: solid .6rem rgb(255, 196, 2);
+    box-shadow: 5px 5px 5px lightgray;
 }
 
 .project-title {
@@ -245,6 +246,8 @@ hr {
     font-size: 0.75rem;
     margin-top: 1rem;
     gap: .4rem;
+    line-height: 1.25;
+    box-shadow: 5px 5px 5px lightgray;
 }
 
 .trending-container {
@@ -255,6 +258,8 @@ hr {
     font-size: .75rem;
     grid-column: 1fr 3fr;
     gap: 1rem;
+    margin-top: 1rem;
+    box-shadow: 5px 5px 5px lightgray;
 }
 
 .trending-content {
