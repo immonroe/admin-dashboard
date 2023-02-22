@@ -221,7 +221,8 @@ h2 {
 /* CONTENT SECTION (right side) */
 
 .project-side-panels {
-    /* display: grid; */
+    min-width: 225px;
+    max-width: 250px;
 }
 
 hr {
