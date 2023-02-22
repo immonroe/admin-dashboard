@@ -162,10 +162,10 @@ button {
 /* CONTENT SECTION (left/main) */
 
 .projects {
-  display: grid;
+  /* display: grid; */
   gap: 1rem;
-  grid-template-columns: 3fr 1fr;
-  grid-template-rows: 1fr 2fr ;
+  /* grid-template-columns: 3fr 1fr; */
+  /* grid-template-rows: 1fr 2fr; */
   background-color: rgb(224, 229, 234);
   padding: 2rem 2rem;
 }
@@ -175,11 +175,12 @@ h2 {
 }
 
 .article {
+    background-color: #bccbde;
     display: grid;
-    grid-area: 1 / 1 / 3 / 1;
-    gap: 1rem;
-    grid-template-columns: repeat(2, (250px, 1fr));
-    grid-template-rows: (3, 1fr);
+    gap: 15px;
+    /* grid-column: 2 / 3; */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: repeat(2, 1fr);
 }
 
 .card {
@@ -194,7 +195,7 @@ h2 {
 }
 
 .project-title {
-    grid-column: 1 / 3;
+    /* grid-column: 1 / 3; */
 }
 
 .article p {
@@ -231,7 +232,7 @@ hr {
 
 .announcements {
     display: grid;
-    grid-row: 1 / 2;
+    /* grid-row: 1 / 2; */
 }
 
 .announcements-sub {
@@ -276,8 +277,8 @@ hr {
 }
 
 .trending {
-    grid-row: 2 / 3;
-    grid-column: 2 / 3;
+    /* grid-row: 2 / 3; */
+    /* grid-column: 2 / 3; */
 }
 
 .trend-handle {
