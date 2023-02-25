@@ -31,7 +31,7 @@ i {
 
 .dashboard {
     grid-area: 1 / 1 / 3 / 2;
-    padding: 2rem 0 0 1rem;
+    padding: 2rem 1rem;
     background-color: #1ba4ff;
     color: white;
 }
