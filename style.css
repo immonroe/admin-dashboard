@@ -26,9 +26,6 @@ i {
     padding-right: 1rem;
 }
 
-.section {
-}
-
 .dashboard {
     grid-area: 1 / 1 / 3 / 2;
     padding: 2rem 1rem;
